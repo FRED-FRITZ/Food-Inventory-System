@@ -10,7 +10,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\TransactionController;
 
 Route::get('/', function () {
-    return view('Items.integration');
+    return view('welcome');
 });
 
 Route::controller(AuthController::class)->group(function () {
