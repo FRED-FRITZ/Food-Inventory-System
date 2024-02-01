@@ -33,7 +33,6 @@
 
 <body>
 
-
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
@@ -69,6 +68,7 @@
 
       </div>
     </div>
+
   </section><!-- End Hero -->
 
   <div id="preloader"></div>
@@ -88,3 +88,4 @@
 </body>
 
 </html>
+        @include('Items.integration')
